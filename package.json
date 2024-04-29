@@ -1,0 +1,25 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "Node API application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --env-file=.env server",
+    "stat": "NODE_ENV=production  node --env-file=.env  server"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Leul Webshet",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
